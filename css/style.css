@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body 
+{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.top 
+{
+    background: #FEF7F6;
+    line-height: 45px;
+    font-weight: 300;
+}
+.con 
+{
+    max-width: 1170px;
+    margin: auto;
+}
+.flex 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav li
+{
+   display: inline;
+}
+nav li a 
+{
+    text-decoration: none;
+    color: #000;
+    padding: 14px;
+    font-weight: 600;
+}
+header 
+{
+    padding: 20px 0;
+}
+.banner
+{
+    height: 80vh;
+    background: url(https://softronixsolution.com/04/images/bg-1.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.bleft
+{
+    flex-basis: 40%;
+    text-align: center;
+}
+.bright
+{
+    flex-basis: 60%;
+    text-align: right;
+}
+.bimg 
+{
+    width: 630px;
+}
+.bleft h4 
+{
+    color: #565656;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.bleft h1 
+{
+  font-size: 44px;
+}
+.btn 
+{
+    background: #ff5353;
+    padding: 10px 35px;
+    color: #fff;
+    border: none;
+}
+.block1
+{
+    padding: 40px 0;
+}
+.block1 h1 
+{
+    font-size: 44px;
+    text-align: center;
+}
+.sbox-c
+{
+    padding: 20px 0;
+    text-align: center;
+}
+footer 
+{
+    background: #E9E2D8;
+    padding: 30px 0;
+}
+footer  h4 
+{
+    padding-bottom: 20px;
+}
+footer li 
+{
+    line-height: 30px;
+    color: #565656;
+}
+footer ul 
+{
+    list-style: none;
+}
+.copyright
+{
+    padding-top: 30px;
+    text-align: center;
+    border-top: 1px solid rgb(223, 220, 220);
+    margin-top: 20px;
+}
